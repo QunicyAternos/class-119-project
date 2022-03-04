@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvSawewecILOwoTx97QWbeQaIm99wxuJ5eqw&usqp=CAU");
+    background-size: cover;
+  }
+  
+  h1
+  {
+    color:rgb(0, 0, 0);
+    background-color: rgb(85, 85, 85);
+  }
+  
+  #show_drawing
+  {
+    float:right;
+  }
+  
+  #timer{
+    float: right;
+  }
+  
+  #drawingtobedrawn{
+    color: black;
+  }
+  
+  canvas 
+    {
+      border:2px solid white;
+      border-radius:20px;
+      margin-top:135px;
+      box-shadow:5px 5px 5px whitesmoke;
+      box-shadow: 1px 1px 38px #ffffff;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes example {
+  
+    from {box-shadow: 1px 1px 38px gold;}
+    to {box-shadow: 1px 1px 38px orangered;}
+  
+  }
+  
+  
+  p, span
+  {
+      padding-top:10px;
+      font-size:25px;
+  }
